@@ -257,5 +257,3 @@ class PacMan:
             if self.map[self.pos_linha - 1][self.pos_coluna] == 0:
                 return True
             return False
-            
-        

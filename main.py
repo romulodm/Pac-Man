@@ -21,7 +21,7 @@ def main():
             Image(Point(50, 637), "Sprites/lifePacMan.png")]
 
     pontos = 0
-                               #False significa que não quero que ele crie um retângulo com fundo escuro para "apagar tudo da tela".
+                             #"False" porque não quero que ele crie um retângulo para "apagar tudo da tela".
     usuario = TelaInicial(win, False) # "TelaInicial" é uma função que retorna um nome de usuário.
         
     comidas = com.comidas() # lista de objetos da Graphics (as bolinhas)

@@ -189,32 +189,13 @@ class Game:
             else:
                 self.atualizaVidas()
 
+        """
+        #Linha criada no "gameLoop" para visualizar a linha de colisão entre o Pac-Man e o Blinky:
         self.line.undraw()
         self.line = Line(Point(x_pac,y_pac), Point(x_blinky,y_blinky))
         self.line.setWidth(2)
         self.line.setFill("white")
-        self.line.draw(self.win)
-
-        self.line2.undraw()
-        self.line2 = Line(Point(x_pac,y_pac), Point(x_clyde,y_clyde))
-        self.line2.setWidth(2)
-        self.line2.setFill("white")
-        self.line2.draw(self.win)
-
-        self.line3.undraw()
-        self.line3 = Line(Point(x_pac,y_pac), Point(x_inky,y_inky))
-        self.line3.setWidth(2)
-        self.line3.setFill("white")
-        self.line3.draw(self.win)
-        
-        self.line4.undraw()
-        self.line4 = Line(Point(x_pac,y_pac), Point(x_pinky,y_pinky))
-        self.line4.setWidth(2)
-        self.line4.setFill("white")
-        self.line4.draw(self.win)
-        
-       
-        
+        self.line.draw(self.win) """
 
     def checkComidas(self):
         self.posicaoPacMan = self.pacman.getPosition()
@@ -427,15 +408,11 @@ class Game:
         MOVIMENTO = ""
         tryMove = ""
 
+        """
+        #Visualizar a colisão (desenha uma linha do Blinky ao Pac-Man):
         self.line = Line(Point(0,0), Point(0,0))
-        self.line.draw(self.win)
-        self.line2 = Line(Point(0,0), Point(0,0))
-        self.line2.draw(self.win)
-        self.line3 = Line(Point(0,0), Point(0,0))
-        self.line3.draw(self.win)
-        self.line4 = Line(Point(0,0), Point(0,0))
-        self.line4.draw(self.win)
-        
+        self.line.draw(self.win) """
+
         #Lógica do movimento inicial do Pac-Man:
         iniciar = False
         while not iniciar:

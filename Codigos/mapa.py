@@ -36,6 +36,8 @@ MAPA =  [
 from graphics import *
 
 def getPositions():
+    """Dicionário que contém a posição na janela criada pela graphics com a
+    correspondência dessa posição na matriz do jogo (POSICAO_GRAPHICS: POSICAO_MATRIZ):"""
     POSICOES = {
 
     #LINHA 1    
@@ -402,6 +404,8 @@ def getPositions():
     return(POSICOES)
 
 def getPosComidas():
+    """Posição na janela de cada comida (posição na lista criada em "comidas.py"):"""
+    
     POSICOES_COMIDAS = {
         "30.0,30.0": 1,
         "50.0,30.0": 2,
