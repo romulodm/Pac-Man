@@ -6,6 +6,13 @@
 <p align="justify ">Esse projeto foi concluído no final do meu primeiro ano da graduação, na disciplina de Algoritmos e Estrutura de Dados I. O objetivo foi colocar em prática o conhececimento
 adquirido sobre POO. Tentei fazer com que o jogo ficasse o mais parecido possível com o Pac-Man original, porém, devido às limitações da biblioteca usada e também de conhecimento acerca de programação e boas práticas, o projeto final é, de certa forma, bem simples.</p>
 <br>
+<details>
+ <summary>Vídeo de demonstração</summary>
+ <br>
+ <p>:tv: Esse vídeo foi feito de forma simples, apenas para mostrar como o jogo funciona:
+ <a href="https://www.youtube.com/watch?v=UnFUAWCAXgg&ab_channel=Romulo" target="blank">Vídeo no Youtube</a></p>
+</details>
+<br>
 
 # :mag_right: Visão Geral
 <p align="justify ">O jogo possui apenas um mapa, com 244 comidas no total (contando com as especiais). Sempre que as comidas se esgotam, o jogo reinicia no mesmo mapa mantendo apenas a pontução do usuário.</p>
